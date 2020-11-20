@@ -1,0 +1,4 @@
+container-image: harbor.tanzuworld.com/openso/node
+kubernetes-namespace: default
+kubernetes-deployment: node
+kubernetes-container: node

@@ -1,0 +1,4 @@
+container-image: harbor.tanzuworld.com/tanzu-app/tanzu-app
+kubernetes-namespace: demo
+kubernetes-deployment: tanzu-app
+kubernetes-container: tanzu-app

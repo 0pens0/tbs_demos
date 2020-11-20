@@ -1,0 +1,1 @@
+fly -t openso set-pipeline -p myapp -c ci/OrenPipeline.yml -l ci/OrenSecrets.yml -l ci/OrenApp.yml

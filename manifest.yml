@@ -1,0 +1,7 @@
+---
+applications:
+- name: cf-petclinic
+  memory: 512M
+  instances: 1
+  random-route: true
+  timeout: 180

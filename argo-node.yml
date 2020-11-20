@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: node
+  namespace: apps
+spec:
+  project: node
+  source:
+    repoURL: https://github.com/0pens0/node-http.git
+    targetRevision: HEAD
+    path: .
+  destination:
+    server: https://2wc8czf60dwgs56zxy3fidyrgfjd-k8s-1931341150.eu-west-1.elb.amazonaws.com
+    namespace: apps

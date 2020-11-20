@@ -1,0 +1,6 @@
+source:
+  git:
+    url: https://github.com/0pens0/spring-petclinic
+    revision: master
+image:
+        tag: harbor.tanzuworld.com/openso/spring-petclinic
